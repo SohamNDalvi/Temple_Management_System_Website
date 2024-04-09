@@ -1,0 +1,498 @@
+.mandir-logo-icon {
+  height: 66px;
+  width: 136px;
+  position: relative;
+  object-fit: cover;
+}
+.home-button {
+  height: 30px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.employee-details-button-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 39px 0 0;
+}
+.totaldonationsamount-button,
+.totalexpenses-button {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.totaldonationsamount-button {
+  height: 29px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -12px;
+}
+.totalexpenses-button {
+  align-self: stretch;
+}
+.totalexpenses-button-wrapper {
+  width: 248px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+  margin-left: -12px;
+}
+.employee-details-button {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.contact-text {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border-top: 2px solid var(--color-dimgray);
+  box-sizing: border-box;
+  margin-left: -182px;
+}
+.contact-text1 {
+  height: 2px; 
+  flex: 1;   
+  position: relative; 
+  border-top: 2px solid var(--color-dimgray); 
+  box-sizing: border-box;   
+  margin-left: -260px;    
+  margin-top: 30px;
+}
+.totaldisplay-frame {
+  height: 30px;
+  width: 185px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  margin-left: -12px;
+}
+.label,
+.total-expenses-button {
+  display: flex;
+  align-items: center;
+}
+.total-expenses-button {
+  height: 31px;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.label {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 22.71px;
+  white-space: pre-wrap;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.badge,
+.content {
+  flex-direction: row;
+  align-items: center;
+}
+.content {
+  height: 23px;
+  display: none;
+  justify-content: center;
+}
+.badge {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 3.79px;
+  background-color: #662549;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.8392856121063232px 15.14285659790039px;
+}
+.iconnavigationarrow-drop-dow {
+  height: 12.8px;
+  width: 1.1px;
+  position: relative;
+  object-fit: contain;
+  display: none;
+}
+.badge-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vector-icon {
+  height: 24.9px;
+  width: 24.4px;
+  position: relative;
+  z-index: 1;
+  margin-left: -28px;
+}
+.log-acc-button {
+  height: 40px;
+  width: 175px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 74px var(--padding-10xs) 71px;
+  box-sizing: border-box;
+  color: var(--color-white);
+  font-family: var(--font-heebo);
+}
+.mandir-logo-frame,
+.total-donations-amount-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.total-donations-amount-button {
+  height: 41px;
+  width: 1053px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-101xl);
+}
+.mandir-logo-frame {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}
+.display-back,
+.footer-frame-child {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.footer-frame-child {
+  height: 1064.4px;
+  width: 1440px;
+  object-fit: cover;
+}
+.display-back {
+  width: 1361px;
+  height: 955px;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-white);
+}
+.contact,
+.full-name {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+  z-index: 1;
+}
+.contact {
+  align-self: stretch;
+  height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.contact-frame {
+  width: 143px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 8px 0 0;
+  box-sizing: border-box;
+}
+.id {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+  z-index: 1;
+}
+.position-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 22px 0 0;
+}
+.position {
+  height: 26px;
+  display: inline-block;
+}
+.position,
+.salary {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+  z-index: 1;
+}
+.full-name-frame,
+.total-disp-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.full-name-frame {
+  width: 1187px;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.total-disp-frame {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.l1,
+.l1-wrapper,
+.l2,
+.total-disp-frame {
+  box-sizing: border-box;
+}
+.l1 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  max-width: 100%;
+  z-index: 1;
+}
+.l1-wrapper,
+.l2 {
+  align-self: stretch;
+}
+.l1-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 58px;
+  max-width: 100%;
+}
+.l2 {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  z-index: 1;
+}
+.footer-frame,
+.total-display {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.total-display {
+  flex: 1;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 32px 28px 809px var(--padding-16xl);
+  gap: 15px;
+  z-index: 1;
+}
+.footer-frame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 54px var(--padding-17xl) 55px 43px;
+  background-image: url("bg-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-lightslategray);
+  font-family: var(--font-poppins);
+}
+.admin-donate-inner,
+.mandir-logo-frame-parent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mandir-logo-frame-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-9xs);
+  gap: 12px;
+}
+.admin-donate-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+}
+.footer-back {
+  width: 1440px;
+  height: 136.1px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.fb-button-icon {
+  width: 30px;
+  height: 30.5px;
+  position: relative;
+  z-index: 1;
+}
+.fb-button-instance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 7px 0 0;
+}
+.instagram-button-icon {
+  width: 32px;
+  height: 32.5px;
+  position: relative;
+  z-index: 1;
+}
+.social-media-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px 0 0;
+}
+.gmail-button-icon,
+.twitter-button-icon {
+  height: 30.5px;
+  width: 36.9px;
+  position: relative;
+  z-index: 1;
+}
+.gmail-button-icon {
+  height: 28.4px;
+  width: 30.8px;
+}
+.fb-vector,
+.footer-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.fb-vector {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer-frame1 {
+  width: 226px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.copyright-2020-all {
+  position: relative;
+  z-index: 1;
+}
+.copyright-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-10xs);
+}
+.admin-donate,
+.footer {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.footer {
+  align-self: stretch;
+  align-items: center;
+  padding: 38px var(--padding-xl) var(--padding-xl) 34px;
+  gap: 25px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #0c214a;
+  font-family: var(--font-heebo);
+}
+.admin-donate {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 15px 0 var(--padding-12xs);
+  gap: 5px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .total-expenses-button {
+    display: none;
+  }
+  .total-donations-amount-button {
+    width: 295px;
+  }
+  .footer-frame {
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .total-donations-amount-button {
+    gap: var(--gap-101xl);
+  }
+  .total-display {
+    padding-top: var(--padding-2xl);
+    padding-bottom: 526px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .total-donations-amount-button {
+    gap: var(--gap-101xl);
+  }
+  .full-name-frame {
+    flex-wrap: wrap;
+  }
+  .total-display {
+    padding-top: var(--padding-xl);
+    padding-bottom: 342px;
+    box-sizing: border-box;
+  }
+  .footer-frame {
+    padding-left: var(--padding-2xl);
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact,
+  .full-name,
+  .id,
+  .position,
+  .salary {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+}

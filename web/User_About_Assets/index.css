@@ -1,0 +1,940 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 5575px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.frame {
+  position: relative;
+  width: 1440px;
+  height: 88px;
+  margin: 0 0 0 0;
+  background: #fcfcfc;
+  z-index: 50;
+  overflow: hidden;
+}
+.mandir-logo {
+  position: absolute;
+  width: 136.853px;
+  height: 66.414px;
+  top: 14px;
+  left: 11px;
+  background: url(a245e244df7f3e3134a671b8c3c5fc7922ddc3fd.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 80;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: absolute;
+  width: 2.29%;
+  height: 37.5%;
+  top: 50%;
+  left: 95.49%;
+  padding: 2.839px 15.143px 2.839px 15.143px;
+  background: #662549;
+  z-index: 77;
+  border-radius: 3.786px;
+}
+.vector {
+  position: absolute;
+  width: 1.74%;
+  height: 28.34%;
+  top: 54.55%;
+  left: 95.76%;
+  background: url(e6030a53-ec7e-4ef2-9c34-4655015cc920.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 78;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 66px;
+  height: 29px;
+  top: 51px;
+  left: 477px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 51;
+}
+.home-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 66px;
+  height: 29px;
+  top: 51px;
+  left: 477px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 52;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 67px;
+  height: 29px;
+  top: 51px;
+  left: 574px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 54;
+}
+.about-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 67px;
+  height: 29px;
+  top: 51px;
+  left: 574px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 55;
+}
+.about-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 67px;
+  height: 29px;
+  top: 51px;
+  left: 574px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 56;
+}
+.events {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 69px;
+  height: 29px;
+  top: 51px;
+  left: 671px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 57;
+}
+.events-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 69px;
+  height: 29px;
+  top: 51px;
+  left: 671px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 58;
+}
+.events-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 69px;
+  height: 29px;
+  top: 51px;
+  left: 671px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 59;
+}
+.faqs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 60px;
+  height: 29px;
+  top: 51px;
+  left: 880px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 60;
+}
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 60px;
+  height: 29px;
+  top: 51px;
+  left: 880px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 61;
+}
+.donate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  top: 51px;
+  left: 770px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 62;
+}
+.donate-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  top: 51px;
+  left: 770px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 63;
+}
+.line {
+  position: absolute;
+  width: 66px;
+  height: 2px;
+  top: 78px;
+  left: 574px;
+  background: url(14e2b318-cd86-420e-800d-6773fbcefd17.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 53;
+}
+.line-7 {
+  position: relative;
+  width: 1440px;
+  height: 5px;
+  margin: 0 0 0 0;
+  background: url(afe5af91-adc8-4c6f-908a-326a86b88722.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 79;
+}
+.history-of-ram {
+  display: block;
+  position: relative;
+  height: 60px;
+  margin: 46px 0 0 455px;
+  color: #545458;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
+.rectangle {
+  position: relative;
+  width: 1446px;
+  height: 1330px;
+  margin: 52px 0 0 0;
+  background: #b5bbbc;
+  z-index: 15;
+  overflow: visible auto;
+}
+.rectangle-8 {
+  position: relative;
+  width: 1446px;
+  height: 595px;
+  margin: 0 0 0 0;
+  background: url(d25f035a-2759-4203-9287-9fcd77eed250.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 14;
+}
+.rectangle-9 {
+  position: absolute;
+  width: 564px;
+  height: 485px;
+  top: 48px;
+  left: 736px;
+  background: #ffffff;
+  z-index: 18;
+  border-radius: 11px;
+  box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+}
+.rectangle-a {
+  position: relative;
+  width: 501px;
+  height: 395px;
+  margin: 23px 0 0 33px;
+  background: url(2db6fd0f09230155b086a3135c42286e508e652f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+  border-radius: 9px;
+  box-sizing: content-box;
+}
+.ram-mandir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 473px;
+  height: 58px;
+  margin: -6px 0 0 33px;
+  color: #5b6176;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 34.84000015258789px;
+  font-weight: 700;
+  line-height: 52.26px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.38px;
+  z-index: 19;
+}
+.rectangle-b {
+  position: absolute;
+  width: 564px;
+  height: 485px;
+  top: 48px;
+  left: 146px;
+  background: #ffffff;
+  z-index: 23;
+  border-radius: 11px;
+  box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+}
+.rectangle-c {
+  position: relative;
+  width: 498px;
+  height: 385px;
+  margin: 23px 0 0 33px;
+  background: url(fe65ac9c0f10a7bf9d2ea376483e7c0b773710e0.png)
+    no-repeat center;
+  z-index: 25;
+  border-radius: 9px;
+  box-sizing: content-box;
+  background-size: cover;
+}
+.babri-masjid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 513px;
+  height: 60.353px;
+  margin: 0 0 0 33px;
+  color: #5b6176;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 34.83871078491211px;
+  font-weight: 700;
+  line-height: 52.258px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.38px;
+  z-index: 24;
+}
+.history-ayodhya-ram-mandir {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1154px;
+  height: 550px;
+  margin: 73px 0 0 146px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 26;
+}
+.line-d {
+  position: relative;
+  width: 1440px;
+  height: 5.983px;
+  margin: -1.543px 0 0 0;
+  background: url(07d3abae-9a7f-4bce-b261-414abe15cfb8.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 64;
+}
+.title-significance-ayodhya-ram-mandir {
+  display: block;
+  position: relative;
+  height: 55px;
+  margin: 47.56px 0 0 114px;
+  color: #3a3a3a;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.line-e {
+  position: relative;
+  width: 1440px;
+  height: 5.983px;
+  margin: 48.542px 0 0 0;
+  background: url(8894e5a1-05d3-4787-8eac-3e26854ae5ff.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 65;
+}
+.rectangle-f {
+  position: relative;
+  width: 1474px;
+  height: 479px;
+  margin: -0.52px 0 0 -17px;
+  background: #a3d0e0;
+  z-index: 27;
+}
+.importance-ayodhya-ram-mandir {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 1134px;
+  height: 396px;
+  top: 43px;
+  left: 163px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 28;
+}
+.line-10 {
+  position: relative;
+  width: 1440px;
+  height: 5.983px;
+  margin: -1.276px 0 0 0;
+  background: url(b83bf5f8-6bf2-4192-ad37-7e1680801338.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 68;
+}
+.title-architecture-features-ayodhya-ram-mandir {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 783px;
+  height: 107px;
+  margin: 21.293px 0 0 329.002px;
+  color: #3a3a3a;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55.2px;
+  text-align: center;
+  z-index: 66;
+}
+.line-11 {
+  position: relative;
+  width: 1440px;
+  height: 5.983px;
+  margin: 28.429px 0 0 0;
+  background: url(28ad2f45-16f2-4e59-a412-23aaa57e4c82.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 69;
+}
+.rectangle-12 {
+  position: relative;
+  width: 1474px;
+  height: 761px;
+  margin: -0.41px 0 0 -28px;
+  background: #b5bbbc;
+  z-index: 29;
+}
+.architecture-features-ayodhya-ram-mandir {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 1134px;
+  height: 627px;
+  top: 36px;
+  left: 174.002px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 67;
+}
+.line-13 {
+  position: relative;
+  width: 1440px;
+  height: 5.983px;
+  margin: -0.93px 0 0 0;
+  background: url(24f547b6-516d-4edf-80a9-7d460f4dc24e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 70;
+}
+.title-economic-impact-ram-mandir {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 783px;
+  height: 53px;
+  margin: 46.944px 0 0 329.002px;
+  color: #3a3a3a;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 53px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 71;
+}
+.line-14 {
+  position: relative;
+  width: 1440px;
+  height: 5.983px;
+  margin: 47.128px 0 0 0;
+  background: url(c213d64e-80ad-4fad-8e7c-569f3e35e5b3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 73;
+}
+.rectangle-15 {
+  position: relative;
+  width: 1474px;
+  height: 566px;
+  margin: -2.11px 0 0 -34px;
+  font-size: 0px;
+  background: #a3d0e0;
+  z-index: 30;
+  overflow: visible auto;
+}
+.cultural-renaissance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1134px;
+  height: 419px;
+  margin: 64px 0 0 180.002px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 72;
+}
+.line-16 {
+  position: relative;
+  width: 1440px;
+  height: 5.983px;
+  margin: 77.019px 0 0 34px;
+  background: url(2ab1ca2d-10c1-47c5-81ff-bdc3bc6b1897.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 74;
+}
+.title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 589px;
+  height: 65px;
+  margin: 56px 0 0 427px;
+  color: #3a3a3a;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55.2px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 3;
+}
+.rectangle-17 {
+  position: relative;
+  width: 1455px;
+  height: 1369px;
+  margin: 51px 0 0 -7px;
+  background: #b5bbbc;
+  z-index: 32;
+  overflow: visible auto;
+}
+.rectangle-18 {
+  position: relative;
+  width: 1134px;
+  height: 265.586px;
+  margin: 72.562px 0 0 156px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 34;
+  overflow: visible auto;
+  border-radius: 14.095px;
+}
+.historical-religious-significance {
+  display: block;
+  position: relative;
+  height: 59.269px;
+  margin: 25.224px 0 0 35.478px;
+  color: #21243d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30.20423698425293px;
+  font-weight: 700;
+  line-height: 45.306px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 35;
+}
+.historical-religious-significance-19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1058.122px;
+  height: 156.657px;
+  margin: -0.4px 0 0 35.478px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 36;
+}
+.rectangle-1a {
+  position: relative;
+  width: 1134px;
+  height: 265.586px;
+  margin: 35.833px 0 0 156px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 38;
+  overflow: visible auto;
+  border-radius: 14.095px;
+}
+.architectural-grandeur {
+  display: block;
+  position: relative;
+  height: 59.269px;
+  margin: 25.143px 0 0 35.478px;
+  color: #21243d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30.20423698425293px;
+  font-weight: 700;
+  line-height: 45.306px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 39;
+}
+.architectural-grandeur-1b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1058.122px;
+  height: 157.655px;
+  margin: -0.4px 0 0 35.478px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 37.5px;
+  text-align: left;
+  z-index: 40;
+}
+.rectangle-1c {
+  position: relative;
+  width: 1134px;
+  height: 285.375px;
+  margin: 35.952px 0 0 156px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 46;
+  overflow: visible auto;
+  border-radius: 14.095px;
+}
+.cultural-spiritual-experience {
+  display: block;
+  position: relative;
+  height: 59.269px;
+  margin: 24.945px 0 0 35.012px;
+  color: #21243d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30.20423698425293px;
+  font-weight: 700;
+  line-height: 45.306px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 47;
+}
+.cultural-spiritual-experience-1d {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1058.141px;
+  height: 157.655px;
+  margin: -0.4px 0 0 35.012px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 48;
+}
+.rectangle-1e {
+  position: relative;
+  width: 1134px;
+  height: 264.961px;
+  margin: 42.093px 0 0 156px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 42;
+  overflow: visible auto;
+  border-radius: 14.095px;
+}
+.tourist-infrastructure {
+  display: block;
+  position: relative;
+  height: 58.871px;
+  margin: 21.767px 0 0 35.478px;
+  color: #21243d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30.20423698425293px;
+  font-weight: 700;
+  line-height: 45.306px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 43;
+}
+.tourist-accommodation {
+  position: relative;
+  width: 1058.122px;
+  height: 156.657px;
+  margin: 0px 0 0 35.478px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16.10892677307129px;
+  font-weight: 400;
+  line-height: 24.163px;
+  text-align: left;
+  z-index: 44;
+}
+.tourist-accommodation-1f {
+  position: relative;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: left;
+}
+.empty {
+  position: relative;
+  color: #21243d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16.10892677307129px;
+  font-weight: 400;
+  line-height: 24.163px;
+  text-align: left;
+}
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 162.668px;
+  margin: 0 0 0 0;
+  background: rgba(0, 0, 0, 0.04000000000000001);
+  z-index: 5;
+}
+.rectangle-20 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 6;
+}
+.flex-row-eb {
+  position: relative;
+  width: 227px;
+  height: 42px;
+  margin: 34.668px 0 0 603px;
+  z-index: 11;
+}
+.frame-21 {
+  position: absolute;
+  width: 37px;
+  height: 42px;
+  top: 0;
+  left: 190px;
+  background: url(a9c5378e-c2c7-4e0a-bc91-07e106976ab4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+  overflow: hidden;
+}
+.fb {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  background: url(0af49126-64b2-4ec9-9494-0f7980de4073.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-378.33%, -48.89%);
+  z-index: 7;
+}
+.insta {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  background: url(a8e828e4-e8b5-4b2f-b3bd-2fe9d75b2002.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-161.67%, -48.89%);
+  z-index: 9;
+}
+.group {
+  position: absolute;
+  width: 16.27%;
+  height: 71.43%;
+  top: 15.08%;
+  left: 57.27%;
+  background: url(5adf8691-c46d-426e-a941-40b126e2a602.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 8;
+}
+.copyright {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 222px;
+  height: 21px;
+  margin: 20.332px 0 0 607px;
+  color: #0b204a;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.563px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 10;
+}
+.line-22 {
+  position: absolute;
+  width: 1440px;
+  height: 5px;
+  top: 83px;
+  left: 0;
+  background: url(6677f59b-f23e-463f-a523-79a4d793c808.png)
+    no-repeat center;
+  background-size: cover;
+}

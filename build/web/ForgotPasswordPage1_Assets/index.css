@@ -1,0 +1,258 @@
+.frame-child {
+  width: 486px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.backbutton-icon {
+  width: 39px;
+  height: 39px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.forget-password1 {
+  margin: 0;
+  height: 53px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.forget-password-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px 0 0;
+}
+.provide-your-accounts {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  color: #4e1414;
+  z-index: 1;
+}
+.forget-password {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.email-id {
+  height: 21px;
+  width: 169px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.path-icon {
+  height: 13px;
+  width: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.email-id-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.email-address-child,
+.path {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.path {
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 12px;
+  max-width: 100%;
+}
+.email-address-child {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-maroon-100);
+}
+.email-address1 {
+  height: 33px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  max-width: 100%;
+}
+.email-address {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 25px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+}
+.label-text {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 800;
+  font-family: var(--font-poppins);
+  color: #ebe6e8;
+  text-align: center;
+}
+.extended-fab,
+.state-layer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.state-layer {
+  flex: 1;
+  background: linear-gradient(
+    180deg,
+    #923012,
+    #c54b25 65.5%,
+    #be5535 87.5%,
+    #be5535 94.5%,
+    #be5535 99.99%
+  );
+  padding: var(--padding-5xs) 24px var(--padding-5xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: 12px;
+}
+.extended-fab {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--m3-sys-light-tertiary-container);
+  width: 337px;
+  border-radius: 7px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  min-width: 80px;
+  z-index: 1;
+  position:relative;
+  top:0px;
+  left:2px;
+}
+.email-address-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: #be5535;
+}
+.email-address-parent,
+.forget-password-parent,
+.frame-wrapper {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.forget-password-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-50xl);
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 26px 0 30px;
+}
+.admin-forgot1,
+.frame-wrapper,
+.vector-parent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.vector-parent {
+  width: 486px;
+  border-radius: var(--br-3xl);
+  background-color: rgba(236, 233, 233, 0.11);
+  box-shadow: 47.2px -47.2px 47.23px rgba(179, 177, 177, 0.11) inset,
+    -47.2px 47.2px 47.23px rgba(255, 255, 255, 0.11) inset;
+  backdrop-filter: blur(93.52px);
+  border: 0 solid #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-base) 113px;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+  height:650px;
+}
+.login-frame {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-maroon);
+  WIDTH: 395px;
+}
+.admin-forgot1 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 200px var(--padding-xl) 311px;
+  background-image: url("bg-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 30px;
+  color: var(--color-maroon-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .forget-password1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .vector-parent {
+    gap: var(--gap-26xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: 73px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .forget-password1 {
+    font-size: 18px;
+  }
+  .forget-password-parent {
+    gap: var(--gap-50xl);
+  }
+}

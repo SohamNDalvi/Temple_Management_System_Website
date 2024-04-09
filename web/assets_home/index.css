@@ -1,0 +1,617 @@
+.mandir-logo-icon {
+  height: 66.4px;
+  width: 136.9px;
+  position: relative;
+  object-fit: cover;
+}
+.home-button {
+  height: 30px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-button-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 39px 0 0;
+}
+.totaldonationsamount-button,
+.totalexpenses-button {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.totaldonationsamount-button {
+  height: 29.2px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -13px;
+}
+.totalexpenses-button {
+  align-self: stretch;
+}
+.log-acc-button {
+  width: 252px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  margin-left: -13px;
+}
+.employeedetails-button {
+  width: 186.2px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+  margin-left: -13px;
+}
+.employee-details-button-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.label {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 22.71px;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.badge,
+.content {
+  flex-direction: row;
+  align-items: center;
+}
+.content {
+  height: 23px;
+  display: none;
+  justify-content: center;
+}
+.badge {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 3.79px;
+  background-color: var(--color-darkslateblue-100);
+  display: flex;
+  justify-content: space-between;
+  padding: 2.8392856121063232px 15.14285659790039px;
+}
+.iconnavigationarrow-drop-dow {
+  height: 12.8px;
+  width: 1.1px;
+  position: relative;
+  object-fit: contain;
+  display: none;
+}
+.badge-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vector-icon {
+  height: 24.9px;
+  width: 24.4px;
+  position: relative;
+  z-index: 1;
+  margin-left: -28px;
+}
+.log-acc-button1 {
+  align-self: stretch;
+  width: 178px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px 74px var(--padding-10xs) 71px;
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: 20px;
+  color: var(--color-white);
+  font-family: var(--font-heebo);
+}
+.mandir-logo-parent,
+.total-donations-amount-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.total-donations-amount-button {
+  height: 40px;
+  width: 1051px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-94xl);
+}
+.mandir-logo-parent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.expensegrp-child {
+  height: 0;
+  width: 89px;
+  position: relative;
+  object-fit: contain;
+}
+.expensegrp {
+  width: 827px;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-parent,
+.label1 {
+  align-self: stretch;
+  display: flex;
+}
+.frame-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px var(--padding-5xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl-1);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}
+.label1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 22.86px;
+  white-space: pre-wrap;
+  align-items: center;
+  justify-content: center;
+}
+.badge1,
+.content1 {
+  flex-direction: row;
+  align-items: center;
+}
+.content1 {
+  height: 23px;
+  display: none;
+  justify-content: center;
+}
+.badge1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 3.81px;
+  background-color: var(--color-darkslateblue-100);
+  display: flex;
+  justify-content: space-between;
+  padding: 2.857093095779419px 15.23783016204834px;
+  box-sizing: border-box;
+}
+.iconnavigationarrow-drop-dow1 {
+  position: absolute;
+  height: 38.86%;
+  width: 3.4%;
+  top: 71.08%;
+  right: 5.56%;
+  bottom: -9.94%;
+  left: 91.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  display: none;
+}
+.badge-group {
+  height: 33.2px;
+  width: 32.4px;
+  position: relative;
+  display: none;
+}
+.footer-frame-icon {
+  height: 25.1px;
+  width: 24.6px;
+  position: relative;
+}
+.log-acc-button2 {
+  margin: 0 !important;
+  position: absolute;
+  top: 40px;
+  right: -5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 75px var(--padding-6xs);
+}
+.background-icon {
+  position: absolute;
+  top: -0.5px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.total-display-child,
+.total-donations {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.total-display-child {
+  border-radius: var(--br-8xl);
+  background-color: var(--color-lightgray);
+  display: none;
+}
+.total-donations {
+  right: -0.59%;
+  bottom: -0.53%;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+}
+.total-donation-amount {
+  position: absolute;
+  height: 12.43%;
+  width: 90.97%;
+  top: 72.73%;
+  left: 4.32%;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.home-button-icon {
+  position: absolute;
+  height: 53.58%;
+  width: 89.81%;
+  top: 4.73%;
+  right: 5.86%;
+  bottom: 41.68%;
+  left: 4.32%;
+  border-radius: var(--br-4xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.total-donations-parent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.button1,
+.expense-back-image {
+  position: absolute;
+  border-radius: var(--br-2xs);
+}
+.button1 {
+  top: 70px;
+  left: 96px;
+  background-color: var(--color-white);
+  box-shadow: 4px 4px 9.9px rgba(0, 0, 0, 0.25);
+  width: 337.6px;
+  height: 374px;
+  z-index: 2;
+}
+.expense-back-image {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -0.59%;
+  bottom: -0.53%;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.expense-image-icon,
+.total-expense {
+  position: absolute;
+  left: 4.32%;
+  z-index: 1;
+}
+.total-expense {
+  height: 12.43%;
+  width: 90.97%;
+  top: 72.73%;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.expense-image-icon {
+  height: 53.58%;
+  width: 89.81%;
+  top: 4.73%;
+  right: 5.86%;
+  bottom: 41.68%;
+  border-radius: var(--br-4xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.expense-grp {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.button2 {
+  position: absolute;
+  top: 70px;
+  left: 515px;
+  filter: drop-shadow(4px 4px 9.9px rgba(0, 0, 0, 0.25));
+  width: 337.6px;
+  height: 374px;
+  z-index: 2;
+}
+.emp-det-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -0.59%;
+  bottom: -0.53%;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-whitesmoke);
+  box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.emp-det-image-icon,
+.emp-det-text {
+  position: absolute;
+  left: 4.32%;
+  z-index: 1;
+}
+.emp-det-text {
+  height: 12.43%;
+  width: 90.97%;
+  top: 72.73%;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emp-det-image-icon {
+  height: 53.58%;
+  width: 89.81%;
+  top: 4.73%;
+  right: 5.86%;
+  bottom: 41.68%;
+  border-radius: var(--br-4xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.employee-details-grp {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.button3 {
+  position: absolute;
+  top: 70px;
+  left: 938px;
+  filter: drop-shadow(4px 4px 9.9px rgba(0, 0, 0, 0.25));
+  width: 337.6px;
+  height: 374px;
+  z-index: 2;
+}
+.total-display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: var(--br-8xl);
+    background-color: var(--color-lightgray);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1361px;
+    height: 514px;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-15xl-8);
+    color: var(--color-slategray);
+    font-family: var(--font-poppins);
+}
+
+.footer-frame {
+  align-self: stretch;
+  height: 700px;
+  position: relative;
+  background-image: url("background@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.footer-child {
+  width: 1440px;
+  height: 136.1px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.fb-icon {
+  width: 30px;
+  height: 30.5px;
+  position: relative;
+  z-index: 1;
+}
+.fb-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.total-expenses-button {
+  width: 32px;
+  height: 32.5px;
+  position: relative;
+  z-index: 1;
+}
+.empdettext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px 0 0;
+}
+.vector-icon1,
+.vector-icon2 {
+  height: 30.5px;
+  width: 36.9px;
+  position: relative;
+  z-index: 1;
+}
+.vector-icon2 {
+  height: 28.4px;
+  width: 30.8px;
+}
+.facebook-vector,
+.logo-and-total-donations {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.facebook-vector {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.logo-and-total-donations {
+  width: 226px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.copyright-2020-all {
+  position: relative;
+  z-index: 1;
+}
+.copyright-2020-all-rights-res-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-10xs);
+}
+.admin-donate,
+.footer {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.footer {
+  align-self: stretch;
+  align-items: center;
+  padding: 38px var(--padding-xl) var(--padding-xl) 34px;
+  gap: 25px;
+  max-width: 100%;
+  font-size: 14px;
+  color: #0c214a;
+}
+.admin-donate {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 14px 0 var(--padding-12xs);
+  gap: 5px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-xl-1);
+  color: var(--color-white);
+  font-family: var(--font-heebo);
+}
+@media screen and (max-width: 1200px) {
+  .employee-details-button-frame {
+    display: none;
+  }
+  .total-donations-amount-button {
+    width: 288px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .total-donations-amount-button {
+    gap: var(--gap-94xl);
+  }
+  .emp-det-text,
+  .total-donation-amount,
+  .total-expense {
+    font-size: var(--font-size-9xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .total-donations-amount-button {
+    gap: var(--gap-94xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .label1 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .emp-det-text,
+  .total-donation-amount,
+  .total-expense {
+    font-size: var(--font-size-2xl);
+  }
+}

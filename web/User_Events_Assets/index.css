@@ -1,0 +1,1004 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 7102px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.frame {
+  position: relative;
+  width: 1431.135px;
+  height: 88px;
+  margin: 0 0 0 1px;
+  background: #fcfcfc;
+  z-index: 1;
+  overflow: hidden;
+}
+.mandir-logo {
+  position: absolute;
+  width: 136.853px;
+  height: 66.414px;
+  top: 19px;
+  left: 10px;
+  background: url(a245e244df7f3e3134a671b8c3c5fc7922ddc3fd.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 63;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: absolute;
+  width: 2.29%;
+  height: 37.5%;
+  top: 50%;
+  left: 96.05%;
+  padding: 2.839px 15.143px 2.839px 15.143px;
+  background: #662549;
+  z-index: 17;
+  border-radius: 3.786px;
+}
+.vector {
+  position: absolute;
+  width: 1.74%;
+  height: 28.34%;
+  top: 54.55%;
+  left: 96.33%;
+  background: url(1b63befc-1493-4945-8f20-2e5e840bf0b2.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 18;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 66px;
+  height: 29px;
+  top: 51px;
+  left: 477px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 2;
+}
+.home-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 66px;
+  height: 29px;
+  top: 51px;
+  left: 477px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 3;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 67px;
+  height: 29px;
+  top: 51px;
+  left: 574px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+.about-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 67px;
+  height: 29px;
+  top: 51px;
+  left: 574px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 6;
+}
+.about-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 67px;
+  height: 29px;
+  top: 51px;
+  left: 574px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 7;
+}
+.events {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 69px;
+  height: 29px;
+  top: 51px;
+  left: 671px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 8;
+}
+.events-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 69px;
+  height: 29px;
+  top: 51px;
+  left: 671px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 9;
+}
+.events-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 69px;
+  height: 29px;
+  top: 51px;
+  left: 671px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 10;
+}
+.faqs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 60px;
+  height: 29px;
+  top: 51px;
+  left: 880px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+}
+.faqs-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 60px;
+  height: 29px;
+  top: 51px;
+  left: 880px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.donate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  top: 51px;
+  left: 770px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 13;
+}
+.donate-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  top: 51px;
+  left: 770px;
+  color: #5d5d5d;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 14;
+}
+.line {
+  position: absolute;
+  width: 69px;
+  height: 2px;
+  top: 78px;
+  left: 671px;
+  background: url(a36a19c0-6002-4594-be13-28f4e510e6c4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+}
+.line-8 {
+  position: relative;
+  width: 1440px;
+  height: 5px;
+  margin: 2.5px 0 0 0;
+  background: url(536dff80-27ac-411e-b8f7-ea77824274e9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 20;
+}
+.past-events-ram-mandir {
+  display: block;
+  position: relative;
+  height: 60px;
+  margin: 45.5px 0 0 420px;
+  color: #545458;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 22;
+}
+.rectangle {
+  position: relative;
+  width: 1460px;
+  height: 2719px;
+  margin: 23px 0 0 -3px;
+  background: #b5bbbc;
+  z-index: 23;
+  overflow: visible auto;
+}
+.rectangle-9 {
+  position: relative;
+  width: 1082px;
+  height: 602px;
+  margin: 32px 0 0 182px;
+  background: #ffffff;
+  z-index: 26;
+  overflow: visible auto;
+  border-radius: 11px;
+  box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+}
+.rectangle-a {
+  position: relative;
+  width: 956px;
+  height: 457px;
+  margin: 54px 0 0 61px;
+  background: url(img6.avif)
+    no-repeat center;
+  background-size: cover;
+  z-index: 28;
+  border-radius: 9px;
+  box-sizing: content-box;
+}
+.events-1528-2023 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 945.973px;
+  height: 71.971px;
+  margin: 0.42px 0 0 39.998px;
+  color: #5b6176;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 34.84000015258789px;
+  font-weight: 700;
+  line-height: 52.26px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.38px;
+  z-index: 27;
+}
+.events-b {
+  position: relative;
+  width: 1154px;
+  height: 1995px;
+  margin: 65px 0 0 171px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  z-index: 24;
+}
+.year-1528 {
+  position: relative;
+  color: #fff9f9;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-c {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-d {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-e {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-f {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-10 {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-11 {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-12 {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-13 {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-14 {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-15 {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-16 {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-17 {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-18 {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-19 {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-1a {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-1b {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-1c {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-1d {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-1e {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-1f {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-20 {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-21 {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.waqf-board-petition-22 {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.grand-temple-ram-lalla-23 {
+  position: relative;
+  color: #ffffff;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.worship-ram-lalla {
+  position: relative;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.title {
+  position: relative;
+  width: 784px;
+  height: 55px;
+  margin: 51px 0 0 343px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 30;
+}
+.pranpratista {
+  position: relative;
+  color: #3a3a3a;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55.2px;
+  text-align: left;
+}
+.on-january-22-2024 {
+  position: relative;
+  color: #3a3a3a;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55.2px;
+  text-align: left;
+}
+.transformed-ram-lalla-idol {
+  display: block;
+  position: relative;
+  height: 55px;
+  margin: 1483px 0 0 403px;
+  color: #3a3a3a;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 47;
+}
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 162.668px;
+  margin: 2352px 0 0 17px;
+  background: rgba(0, 0, 0, 0.04000000000000001);
+  z-index: 39;
+}
+.rectangle-24 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 40;
+}
+.flex-row-cf {
+  position: relative;
+  width: 226px;
+  height: 42px;
+  margin: 35px 0 0 603px;
+  z-index: 45;
+}
+.regroup-i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 42.48%;
+  height: 100%;
+  top: 0;
+  left: 57.52%;
+  z-index: 45;
+}
+.group {
+  flex-shrink: 0;
+  position: relative;
+  width: 36.923px;
+  height: 30px;
+  background: url(0d067cc1-4fc8-4745-88c1-3f4c25ea889d.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 42;
+}
+.frame-25 {
+  flex-shrink: 0;
+  position: relative;
+  width: 37px;
+  height: 42px;
+  background: url(e622e824-1fda-495f-b451-cb7482121afb.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 45;
+  overflow: hidden;
+}
+.fb {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  background: url(33304e82-ce7a-44c6-8786-ed5d590a26dd.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-376.67%, -50%);
+  z-index: 41;
+}
+.insta {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  background: url(884d3df2-c0a6-4923-9b6f-25e27ada6c92.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-160%, -50%);
+  z-index: 43;
+}
+.copyright {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 222px;
+  height: 21px;
+  margin: 20px 0 0 607px;
+  color: #0b204a;
+  font-family: Heebo, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.563px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 44;
+}
+.rectangle-26 {
+  position: absolute;
+  width: 1474px;
+  height: 1374px;
+  top: 3100px;
+  left: 0;
+  background: #a3d0e0;
+  z-index: 31;
+}
+.rectangle-27 {
+  position: relative;
+  width: 1063px;
+  height: 516px;
+  margin: 23px 0 0 203px;
+  background: #ffffff;
+  z-index: 34;
+  overflow: visible auto;
+  border-radius: 11px;
+  box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+}
+.rectangle-28 {
+  position: relative;
+    width: 955.383px;
+    height: 390.557px;
+    margin: 47.332px 0 0 54.309px;
+    background: url(pranpratista1.webp) no-repeat center;
+    background-size: contain;
+    background-size: cover;
+    z-index: 53;
+    border-radius: 9px;
+    box-sizing: content-box; 
+    
+    
+}
+.pran-pratishtha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 984.16px;
+  height: 61.224px;
+  margin: 0px 0 0 54.309px;
+  color: #5b6176;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 34.83871078491211px;
+  font-weight: 700;
+  line-height: 52.258px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.38px;
+  z-index: 35;
+}
+.pran-pratishtha-event {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 1154px;
+  height: 825px;
+  top: 3690px;
+  left: 181px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 37;
+}
+.rectangle-29 {
+  position: absolute;
+  width: 1474px;
+  height: 1134px;
+  top: 4621px;
+  left: -1px;
+  background: #b5bbbc;
+  z-index: 48;
+}
+.rectangle-2a {
+  position: relative;
+  width: 1063px;
+  height: 516px;
+  margin: 23px 0 0 203px;
+  background: #ffffff;
+  z-index: 51;
+  overflow: visible auto;
+  border-radius: 11px;
+  box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+}
+.rectangle-2b {
+  position: relative;
+  width: 955.383px;
+  height: 390.557px;
+  margin: 47.332px 0 0 54.309px;
+  background: url(a75ca5f7-72de-4a5c-b0e4-a14cbb8dd904.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 53;
+  border-radius: 9px;
+  box-sizing: content-box;
+}
+.ram-idol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 984.16px;
+  height: 61.224px;
+  margin: 0px 0 0 54.309px;
+  color: #5b6176;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 34.83871078491211px;
+  font-weight: 700;
+  line-height: 52.258px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.38px;
+  z-index: 52;
+}
+.ram-lalla-idol {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 1154px;
+  height: 825px;
+  top: 5211px;
+  left: 180px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 54;
+}
+.title-2c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 55px;
+  top: 5812px;
+  left: 288px;
+  color: #3a3a3a;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 55;
+}
+.rectangle-2d {
+  position: absolute;
+  width: 1447px;
+  height: 1013px;
+  top: 5924px;
+  left: -2px;
+  background: #a3d0e0;
+  z-index: 57;
+}
+.rectangle-2e {
+  position: relative;
+  width: 1082px;
+  height: 582.91px;
+  margin: 31.355px 0 0 198px;
+  background: #ffffff;
+  z-index: 59;
+  overflow: visible auto;
+  border-radius: 11px;
+  box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+}
+.rectangle-2f {
+  position: relative;
+  width: 956px;
+  height: 442.508px;
+  margin: 52.288px 0 0 61px;
+  background: url(e8216088-de81-4b2b-9117-878a80a34b52.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 61;
+  border-radius: 9px;
+  box-sizing: content-box;
+}
+.ram-mandir-construction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 945.973px;
+  height: 69.689px;
+  margin: 0.4px 0 0 39.998px;
+  color: #5b6176;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 34.84000015258789px;
+  font-weight: 700;
+  line-height: 52.26px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -0.38px;
+  z-index: 60;
+}
+.ram-mandir-construction-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1154px;
+  height: 262px;
+  margin: 62.734px 0 0 170px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  z-index: 62;
+}

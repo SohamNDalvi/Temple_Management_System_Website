@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	 version="6.0">
+
+ <servlet>
+        <servlet-name>UpdateDonationServlet</servlet-name>
+        <servlet-class>UpdateDonationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateDonationServlet</servlet-name>
+        <url-pattern>/UpdateDonationServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InsertEmployeeServletFile</servlet-name>
+        <servlet-class>InsertEmployeeServletFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertEmployeeServletFile</servlet-name>
+        <url-pattern>/InsertEmployeeServletFile</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateEmployeeServletFile</servlet-name>
+        <servlet-class>UpdateEmployeeServletFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateEmployeeServletFile</servlet-name>
+        <url-pattern>/UpdateEmployeeServletFile</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteEmployeeServletFile</servlet-name>
+        <servlet-class>DeleteEmployeeServletFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteEmployeeServletFile</servlet-name>
+        <url-pattern>/DeleteEmployeeServletFile</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InsertDonationServlet</servlet-name>
+        <servlet-class>InsertDonationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertDonationServlet</servlet-name>
+        <url-pattern>/InsertDonationServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ForgotPasswordServlet</servlet-name>
+        <servlet-class>ForgotPasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ForgotPasswordServlet</servlet-name>
+        <url-pattern>/ForgotPasswordServlet</url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+    <servlet-name>InsertExpensesServlet</servlet-name>
+    <servlet-class>InsertExpensesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>InsertExpensesServlet</servlet-name>
+    <url-pattern>/InsertExpensesServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>UpdateExpensesServlet</servlet-name>
+    <servlet-class>UpdateExpensesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateExpensesServlet</servlet-name>
+    <url-pattern>/UpdateExpensesServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>    
+    <servlet-name>UserDonateServlet</servlet-name>
+    <servlet-class>UserDonateServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UserDonateServlet</servlet-name>
+    <url-pattern>/UserDonateServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <jsp-file>/Admin.jsp</jsp-file>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/admin</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>FetchTotalExpensesServlet</servlet-name>
+    <servlet-class>FetchTotalExpensesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FetchTotalExpensesServlet</servlet-name>
+    <url-pattern>/FetchTotalExpensesServlet</url-pattern>
+</servlet-mapping>
+ <servlet>
+    <servlet-name>FetchTotalAmpountServlet</servlet-name>
+    <servlet-class>FetchTotalAmpountServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FetchTotalAmpountServlet</servlet-name>
+    <url-pattern>/FetchTotalAmpountServlet</url-pattern>
+</servlet-mapping>
+</web-app>

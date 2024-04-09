@@ -1,0 +1,393 @@
+.input-field-icon {
+  width: 486px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.cancelbutton-icon {
+  height: 39px;
+  width: 39px;
+  position: relative;
+  z-index: 1;
+}
+.cancelbutton-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.admin-login-text {
+  margin: 0;
+  height: 53px;
+  flex: 1;
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--font-poppins);
+  color: var(--color-maroon);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.admin-login-text-wrapper {
+  width: 295px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 7px 0;
+  box-sizing: border-box;
+}
+.emailid-box {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-snow);
+  display: none;
+}
+.email-id,
+.path-icon {
+  position: relative;
+  z-index: 1;
+}
+.email-id {
+  height: 21px;
+  font-size: var(--font-size-lgi);
+  font-family: var(--font-poppins);
+  color: var(--color-sienna);
+  text-align: left;
+  display: inline-block;
+}
+.path-icon {
+  height: 13px;
+  width: 20px;
+}
+.path-shape {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.email-i-d-password,
+.login-frame ,.login-frame1{
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.email-i-d-password {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-xs);
+  max-width: 100%;
+}
+.login-frame {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-maroon);
+  WIDTH: 395px;
+}
+.login-frame1 {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-maroon);
+  WIDTH: 395px;
+  top:-11px
+}
+.email-id-field1,
+.password-box {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-snow);
+}
+.email-id-field1 {
+  width: 395px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+  gap: 10px;
+  max-width: 100%;
+  z-index: 1;
+}
+.password-box {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  display: none;
+}
+.password,
+.shape-icon {
+  position: relative;
+  z-index: 1;
+}
+.password {
+  height: 21px;
+  font-size: var(--font-size-lgi);
+  font-family: var(--font-poppins);
+  color: var(--color-sienna);
+  text-align: left;
+  display: inline-block;
+}
+.shape-icon {
+  height: 12px;
+  width: 18px;
+}
+.password-parent,
+.passwordfield-inner {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.password-parent {
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.passwordfield-inner {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.login_button {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-maroon);
+  box-sizing: border-box;
+}
+.passwordfield {
+  width: 395px;
+  height: 54px;
+  border-radius: var(--br-8xs);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.coreinputcheckbox1 {
+  margin: 0;
+  height: 14px;
+  width: 14px;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  border: 1px solid var(--color-sienna);
+  box-sizing: border-box;
+  z-index: 1;
+  top:-19px;
+}
+.TermsAndCondition{
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm-5);
+  font-family: var(--font-poppins);
+  color: var(--color-maroon);
+  text-align: left;
+  z-index: 1;
+  top: 4px;
+  display: inline;
+  margin-left: 5px; /* Adjust as needed */
+  
+}
+.forgot-password-link {
+  width: 155px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 3px;
+  position:relative;
+  left:-2px;
+}
+.forgot-password {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm-5);
+  font-family: var(--font-poppins);
+  color: var(--color-maroon);
+  text-align: left;
+  z-index: 1;
+  left:-4px;
+}
+.forgot-password-wrapper {
+  width: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+}
+.coreinputcheckbox {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  position: relative;
+  left:-4px;
+  max-width: 100%;
+}
+.coreinputcheckbox-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 6px;
+  box-sizing: border-box;
+      position: relative;
+    top: -20px;
+}
+.coreinputcheckbox-wrapper,
+.email-id-field,
+.email-id-field-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.email-id-field {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.email-id-field-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 11px var(--padding-base) 0;
+  box-sizing: border-box;
+}
+.icon,
+.login {
+  position: relative;
+}
+.icon {
+  height: 18px;
+  width: 18px;
+  display: none;
+}
+.login {
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 800;
+  font-family: var(--font-poppins);
+  color: #ebe6e8;
+  text-align: center;
+}
+.login-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) 25px var(--padding-5xs) var(--padding-xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: 4px;
+  background: linear-gradient(
+    180deg,
+    #923012,
+    #c54b25 65.5%,
+    #be5535 87.5%,
+    #be5535 94.5%,
+    #be5535 99.99%
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  z-index: 1;
+      top: 50px;
+    position: relative;
+    left: 20px;
+    width:30px;
+    color: white;
+    font-family: poppins;
+    font-weight: bolder;
+    font-size: large;
+}
+.login-button-instance {
+  width: 329px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 0;
+  max-width: 100%;
+}
+.admin-login,
+.input-field-parent,
+.login-button-instance {
+  display: flex;
+  box-sizing: border-box;
+}
+.input-field-parent {
+  margin: 0;
+  width: 486px;
+  border-radius: var(--br-3xl);
+  background-color: rgba(236, 233, 233, 0.11);
+  box-shadow: 47.2px -47.2px 47.23px rgba(179, 177, 177, 0.11) inset,
+    -47.2px 47.2px 47.23px rgba(255, 255, 255, 0.11) inset;
+  backdrop-filter: blur(93.52px);
+  border: 0 solid #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 14px var(--padding-base) 105px 49px;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.admin-login {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 200px var(--padding-xl) 313px;
+  background-image: url("bg-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .admin-login-text {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .input-field-parent {
+    gap: var(--gap-11xl);
+    padding-left: 24px;
+    padding-top: var(--padding-xl);
+    padding-bottom: 68px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .admin-login-text {
+    font-size: 18px;
+  }
+  .coreinputcheckbox {
+    flex-wrap: wrap;
+  }
+}
